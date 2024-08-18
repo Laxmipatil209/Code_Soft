@@ -48,7 +48,7 @@ exit_button = tk.Button(root, text="Exit", command=exit_app)
 add_button.pack(pady=5)
 remove_button.pack(pady=5)
 delete_all_button.pack(pady=5)
-exit_button.pack(pady=5)
+exit_button.pack()
 
 # Run the application
 root.mainloop()
